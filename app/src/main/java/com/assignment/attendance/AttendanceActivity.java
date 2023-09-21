@@ -31,8 +31,8 @@ public class AttendanceActivity extends AppCompatActivity {
     DbHelper dbHelper;
     String tag = "AttTag";
     ProgressDialog dialog;
-    String uploadUrl = "https://api.airtable.com/v0/apphseWUOWhlyPZAO/AttendanceData";
-    String header1 = "Bearer keyYMZGaBBGTHOaC5";
+    String uploadUrl = "table upload route";
+    String header1 = "api key";
     String header2 = "application/json";
 
     @Override
